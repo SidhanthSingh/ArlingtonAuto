@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Arlington Car Parking</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <array name="staticText1Elements">
+        <item>West Garage 5</item>
+        <item>Maverik 1</item>
+        <item>Davis 1</item>
+        <item>Nederman 1</item>
+        <item>West Garage 11</item>
+
+    </array>
+
+    <array name="reservation">
+        <item>West Garage</item>
+    </array>
+</resources>

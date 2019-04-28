@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arunika.arlingtonauto.controller.ConfirmRentalActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="17dp"
+        android:text="Reserve Parking Spot"
+        android:textSize="27sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="16dp"
+        android:text="Parking Area Name:    West Garage"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="15dp"
+        android:text="Parking Capacity:   2"
+        android:layout_below="@+id/textView11"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/textView12"
+        android:text="Check-Out By:  04/28/2019 11:00am"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="46dp"
+        android:text="Return By:  04/28/2019 11:15am"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView14"
+        android:text="Options"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/onstarBox"
+        android:layout_width="88dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="255dp"
+        android:checked="true"
+        android:layout_toRightOf="@+id/textView15"
+        android:onClick="onCheckBoxClicked"
+        android:text="Camera"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/gpsBox"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:checked="false"
+        android:layout_below="@+id/onstarBox"
+        android:onClick="onCheckBoxClicked"
+        android:text="Cart"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/siriusBox"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:onClick="onCheckBoxClicked"
+        android:text="History"
+        android:layout_below="@+id/gpsBox"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="350dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/siriusBox"
+        android:layout_marginEnd="37dp"
+        android:text="Total Price:  $60.99"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="162dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="40dp"
+        android:onClick="onConfirm"
+        android:text="Confirm"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

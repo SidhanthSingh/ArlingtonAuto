@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="7dp"
+        android:text="User V : 03/27/2019"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/textView100"
+        android:layout_marginBottom="7dp"
+        android:text="No Show : 1"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/textView101"
+        android:layout_marginBottom="7dp"
+        android:text="OverDue : 1"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+</RelativeLayout>
