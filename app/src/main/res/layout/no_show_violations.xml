@@ -10,7 +10,7 @@
         android:layout_marginEnd="7dp"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="7dp"
-        android:text="User V : 03/27/2019"
+        android:text="UserV : 03/27/2019"
         android:textSize="24sp"
         android:textStyle="bold"/>
 
@@ -37,4 +37,17 @@
         android:text="OverDue : 1"
         android:textSize="24sp"
         android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="logout"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView102"
+        android:text="Logout">
+
+    </Button>
 </RelativeLayout>

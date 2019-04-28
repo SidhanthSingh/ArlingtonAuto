@@ -37,7 +37,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="58dp"
         android:layout_marginBottom="15dp"
-        android:text="Parking Capacity:   2"
+        android:text="No. of Available Spaces:   254"
         android:layout_below="@+id/textView11"
         android:textSize="20sp"
         android:textStyle="bold"/>
@@ -51,7 +51,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="10dp"
         android:layout_below="@+id/textView12"
-        android:text="Check-Out By:  04/28/2019 11:00am"
+        android:text="Start Time:  04/28/2019   09:00:00"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -63,7 +63,7 @@
         android:layout_below="@+id/textView13"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="46dp"
-        android:text="Return By:  04/28/2019 11:15am"
+        android:text="End Time:   04/28/2019    11:15:00"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -123,7 +123,7 @@
         android:layout_marginTop="30dp"
         android:layout_below="@+id/siriusBox"
         android:layout_marginEnd="37dp"
-        android:text="Total Price:  $60.99"
+        android:text="Total Price:  $3.23"
         android:textSize="20sp"
         android:textStyle="bold"/>
 

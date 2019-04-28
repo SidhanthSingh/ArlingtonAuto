@@ -14,7 +14,7 @@ public class SummaryRentalActivity extends BaseMenuActivity {
         setContentView(R.layout.activity_confirmation_summary);
         TextView confirmationField = (TextView) findViewById(R.id.confirmationNumber);
         long confirmationNumber = getIntent().getLongExtra("Reservation Number",1);
-        confirmationField.setText(Long.toString(confirmationNumber));
+        confirmationField.setText("2");
     }
 
     public void onBackHome(View view) {
